@@ -1,0 +1,37 @@
+/* import the colors */
+@import "color-palette.css";
+
+/* The header section is set up as a flex container with its children arranged in a row. */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    background-color: var(--rich-black);
+}
+
+/* Images inside anchor tags are set to a height of 50px */
+a img {
+    height: 50px;
+}
+
+/* The nav is a flex container, with its children spaced with a 20px gap. */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* Links inside the nav have no underline by default and inherit the header's background color. */
+nav a{
+    text-decoration: none;
+    background-color: var(--rich-black);
+    color: white;
+}
+
+/* H1 is centered */
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+/* import all the css files */
+
+@import "benefits.css";
+@import "card.css";
+@import "characteristics.css";
+@import "header.css";
+@import "layout.css";
+@import "reviews.css";
+@import "visualizer.css";
+@import "buy.css";
+@import "footer.css";

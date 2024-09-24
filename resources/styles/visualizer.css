@@ -1,0 +1,43 @@
+/* The #visualizer container is relatively positioned and has a fixed width and minimum height. */
+#visualizer {
+    position: relative;
+    width: 700px;
+    min-height: 700px;
+}
+
+/* The images inside #visualizer are positioned absolutely, covering the entire area of the container. */
+#visualizer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+/* Sacado de ChatGTP*/
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+    border-radius: 10%;
+}
+
+/* #image1 starts fully visible (opacity: 1). */
+#image1 {
+    opacity: 1;
+}
+
+/* #image2 starts hidden (opacity: 0). */
+#image2 {
+    opacity: 0;
+}
+
+/* On hover over #visualizer, #image1 fades out (opacity: 0) and #image2 fades in (opacity: 1). */
+#visualizer:hover #image1 {
+    opacity: 0;
+}
+
+#visualizer:hover #image2 {
+    opacity: 1;
+}
+/* Sacado de ChatGTP*/
+
+/*
+OpenAI. (2024). ChatGPT (versión del 13 de septiembre) [Modelo de lenguaje de gran tamaño]. https://chat.openai.com/chat
+ */

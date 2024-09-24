@@ -1,0 +1,24 @@
+/* Applies box-sizing: border-box to all elements and pseudo-elements. */
+* {
+    box-sizing: border-box;
+}
+
+/* Sets the font family and font weight for all h1, h2, and h3 headings. */
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Puedes ajustar el grosor */
+}
+
+/* Applies the 'Roboto' font to the body and paragraphs. */
+body, p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Peso normal para texto */
+}
+
+/* Global body settings */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--background);
+}

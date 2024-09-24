@@ -1,0 +1,30 @@
+/* #benefits uses flexbox to center its content
+   in a column. It spans 100% width with a 10px margin. */
+#benefits {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+
+/* Images in #benefits scale responsively,
+   with a max width of 40%. Height adjusts automatically
+   to maintain the aspect ratio. Border-radius rounds corners
+   by 10% for a softer look. */
+#benefits img{
+    max-width: 40%;
+    height: auto;
+    border-radius: 10%;
+}
+
+/* For screens 1024px or smaller, the image's max width
+   increases to 80%, making it larger and more visible
+   on smaller devices. */
+@media screen and (max-width: 1024px) {
+    #benefits img {
+        max-width: 80%;
+    }
+}

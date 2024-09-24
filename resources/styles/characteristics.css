@@ -1,0 +1,12 @@
+/* The #characteristics section is set to use flexbox,
+   aligning its content in a centered column. */
+#characteristics {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
